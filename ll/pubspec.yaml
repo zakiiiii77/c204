@@ -1,0 +1,28 @@
+name: ll
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  firebase_auth: ^4.19.2
+  firebase_core: ^2.30.0
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.4
+  google_sign_in: ^6.2.1
+  google_sign_in_web_redirect: ^0.0.1
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/images/
+    - lib/icons/
